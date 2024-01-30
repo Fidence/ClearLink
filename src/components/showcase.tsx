@@ -22,7 +22,7 @@ const Showcase = () => {
 
         <div className="wrapper_flex ">
 
-            <h1 className='wrapper_txt '>Uniting the world, <br/> one video call at a time</h1>
+            <h1 className='wrapper_txt w-full'>Uniting the world, one  <br/>video call at a time</h1>
             <p className='text-textColor'>Experience the future of communication with ClearLink – <br /> where crystal-clear video conferencing meets <br />unparalleled simplicity.</p>
 
             <div className="flex items-center space-x-4 ">
@@ -41,7 +41,7 @@ const Showcase = () => {
         </div>
         <div data-aos="flip-left" className="wrapper_img "  >
           
-               <img src="/assets/Frame 25.png"  alt="" width={500}  />
+               <img src="/assets/Frame 25.png"  alt="" width={400}  />
 
         </div>
         </div>

@@ -16,7 +16,7 @@ const Clearlink = () => {
     });
   }, []);
   return (
-    <div className='container mx-auto clear flex flex-col justify-center   py-10'>
+    <div className='container mx-auto clear flex flex-col justify-center   py-6'>
         <div className="clear_wrap px-4 md:px-4 ">
             <div className="clear_header   ">
                 <p className='text-primary font-semibold'>The ClearLink Advantage</p>

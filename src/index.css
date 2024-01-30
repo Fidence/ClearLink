@@ -12,19 +12,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-@media screen and (min-width:900px){
-   .wrapper_txt{
-      font-size: 2.7rem;
-   }
-} 
-@media screen and (min-width:900px){
 
- p{
-   font-size: 15px;
- }
- h1{
-   font-size: 20px;
- }
-} 
 
 

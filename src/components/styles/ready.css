@@ -9,11 +9,14 @@
 
   }
 
+  .ready_right{
+      flex: 1;
+  }
+  .texth{
+font-size: 2rem;
+  }
 .ready_left{
    flex:1
-}
-.ready_right{
-    flex: 1;
 }
 .bbbb{
     transition: ease-in-out .5s;

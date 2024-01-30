@@ -16,7 +16,7 @@ const Ready = () => {
       <div className="ready_right ">
         <div>
           <p className='text-primary font-semibold'>Support</p>
-          <h1 className='text-2xl  font-bold text-textColor my-5'>FQs</h1>
+          <h1 className='texth font-bold text-textColor my-5'>FQs</h1>
           <p className=''>Everything you need to know about the product and billing. <br />Can’t find the answer you’re looking for? Please chat to our <br />friendly team.</p>
         </div>
       </div>

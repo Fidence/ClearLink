@@ -3,7 +3,7 @@ import "./styles/logo.css"
 
 const Logos = () => {
   return ( 
-    <div className=' container mx-auto'>
+    <div className=' container mx-auto '>
 
             <p className='text-textColor mb-10 text-center'>Join 1,500+ companies already video conferencing the ClearLink way</p>
         <div className="logos px-4">
