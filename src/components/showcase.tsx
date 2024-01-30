@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './nav';
 import "./styles/showcas.css"
 import { FaRobot } from "react-icons/fa";
+import   AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 
 const Showcase = () => {
+    useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+  
   return (
     <div className='showcase pt-3 container mx-auto'>
         <Navbar/>
@@ -28,7 +39,7 @@ const Showcase = () => {
             </div>
 
         </div>
-        <div className="wrapper_img " >
+        <div data-aos="flip-left" className="wrapper_img "  >
           
                <img src="/assets/Frame 25.png"  alt=""  />
 

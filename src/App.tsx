@@ -1,3 +1,4 @@
+
 import "./App.css";
 import Footer from "./components/Footer";
 import Clearlink from "./components/clearlink";
@@ -6,7 +7,13 @@ import Perfect from "./components/perfect";
 import Ready from "./components/ready";
 import Shopify from "./components/shopify";
 import Showcase from "./components/showcase";
+
+
+
+
+
 function App() {
+ 
   return <div className="App">
   <div className="">
      <Showcase/>

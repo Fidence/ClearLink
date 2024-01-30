@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./styles/clear.css"
 import { LuVideo } from "react-icons/lu";
 import { RiVoiceprintLine } from "react-icons/ri";
 import { FiCalendar } from "react-icons/fi";
+import   AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 
 const Clearlink = () => {
+    useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <div className='container mx-auto clear flex flex-col justify-center   py-10'>
         <div className="clear_wrap px-4 md:px-4 ">
@@ -47,7 +57,7 @@ const Clearlink = () => {
                     
                 </div>
 
-                <div className="clear_box_right  mx-0 auto   ">
+                <div data-aos="flip-left" className="clear_box_right  mx-0 auto   ">
                      <img src="/assets/Rectangle 1.png" alt="" />
                 </div>
             </div>

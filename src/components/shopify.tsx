@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./styles/shopify.css"
 import { MdArrowBack, MdArrowForward} from "react-icons/md";
+import   AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 
 
 
 const Shopify = () => {
+      useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <div className='shopi p-5 bg-nav/20 w-full '>
         <div className="shopi_left flex flex-col gap-10 mt-5">
@@ -26,7 +36,7 @@ const Shopify = () => {
                             </div>
                     </div>
         </div>
-        <div className="shopi_right mt-7 ">
+        <div data-aos="flip-left" className="shopi_right mt-7 ">
               <img src="/assets/Contents.png" alt="" />
         </div>
     </div>

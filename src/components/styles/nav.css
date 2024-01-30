@@ -5,6 +5,11 @@ nav{
 li{
     list-style: none;
 }
+.icot_txt{
+    font-size: 1.3rem;
+    transition: ease 0.6;
+    transform: scaleY(40deg);
+}
 
 .btn{
     font-size: 0.8rem;

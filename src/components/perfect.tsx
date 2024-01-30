@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./styles/perfect.css"
 import {  FaRegCheckCircle } from "react-icons/fa";
+import   AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 
 const Perfect = () => {
+    useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <div className='perfect container mx-auto '>
       <div className="perfect_wrap ml-5">
@@ -25,7 +35,7 @@ const Perfect = () => {
           <a href="*" className='border-solid border-2 border-textColor py-2 px-3 text-sm rounded-full baseline'>Talk to sales</a>
           <a href="*" className='btnn text-sm py-3 px-5 ml-3 rounded-full baseline'>Sign up for free</a>
         </div>
-        <div className="perfect_img mt-4">
+        <div data-aos="flip-left" className="perfect_img mt-4">
            <img src="/assets/3_2 screen mockup.png" alt="" />
         </div>
       </div>

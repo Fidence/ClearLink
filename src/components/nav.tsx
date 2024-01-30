@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="w-100 h-15 py-3 md: container flex items-center justify-between bg-nav/40 mx-auto py-4 px-6 rounded-full">
   
     <div className="logo">
-      <img src="assets/logo.png" width={110} alt="" />
+      <img src="assets/logo.png" width={120} alt="" />
     </div>
     <div className="hidden    lg:flex space-x-6">
       <li className='text-secondary font-semibold flex items-center'>Product <MdKeyboardArrowDown/></li> 
@@ -23,7 +23,7 @@ const Navbar = () => {
    
     </div>
     <div className="flex items-center space-x-3">
-   <button className=' lg:hidden ' onClick={()=>setFirst(!first)}>{first? <FaBars className='font-xl'/>:<FaXmark className='font-xl' />}</button>
+   <button className=' lg:hidden ' onClick={()=>setFirst(!first)}>{first? <FaXmark className='icot_txt' />:<FaBars className='icot_txt'/>}</button>
    <a href="*" className='hidden md:block py-2 px-4 text-sm rounded-full baseline btn '>Talk to sales</a>
    <a href="*" className='hidden md:block text-sm py-2 px-4  rounded-full baseline btnn'>Sign up for free</a>
   </div>
