@@ -1,5 +1,5 @@
 .logos{
-   margin-top: 3rem;
+   margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -7,6 +7,9 @@
     gap: 2rem;
     
     
+}
+.logta{
+   margin-top: 3.5rem;
 }
 
 
