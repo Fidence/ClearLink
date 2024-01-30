@@ -1,0 +1,19 @@
+nav{
+  border: 1px solid #98A2B3/70;  
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    font-size: 0.8rem;
+    background-color: #ffffff;
+    border: 1px solid #98A2B3/70;
+  
+}
+.btnn{
+    font-size: 0.8rem;
+    background-color: #175CD3;
+    color:#ffffff;
+}
