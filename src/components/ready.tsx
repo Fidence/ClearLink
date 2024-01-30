@@ -26,75 +26,75 @@ const Ready = () => {
         <div className="homany  mt-4">
          
          {
-          first1? <div className="flex justify-between gap-2  p-4 " >
-         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
-         <button onClick={()=>setFirst1(!first1)}><AiOutlinePlusCircle className='text-textColor'/></button>
-         </div>:
+          first1? 
        <div className="ready_txt textColor bg-nav/40 p-4">
         <div className="flex justify-between  font-semibold gap-6  "><p>How many participants can join a ClearLink video conference?</p>  <button onClick={()=>setFirst1(!first1)}><BsDashCircle className='text-textColor '/></button></div>
         <p className='text-textColor px-3'>ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
       
-       </div>
+       </div>:
+       <div className="flex justify-between gap-2  p-4 " >
+         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
+         <button onClick={()=>setFirst1(!first1)}><AiOutlinePlusCircle className='text-textColor'/></button>
+         </div>
          }
 
         </div>
         <div className="homany  mt-4">
          
          {
-          first2? <div className="flex justify-between gap-2  p-4 " >
-         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
-         <button onClick={()=>setFirst2(!first2)}><AiOutlinePlusCircle className='text-textColor'/></button>
-         </div>:
+          first2?
        <div className="ready_txt textColor bg-nav/40 p-4">
         <div className="flex justify-between  font-semibold gap-6  "><p>How many participants can join a ClearLink video conference?</p>  <button onClick={()=>setFirst2(!first2)}><BsDashCircle className='text-textColor '/></button></div>
         <p className='text-textColor px-3'>ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
-      
-       </div>
+       </div>: <div className="flex justify-between gap-2  p-4 " >
+         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
+         <button onClick={()=>setFirst2(!first2)}><AiOutlinePlusCircle className='text-textColor'/></button>
+         </div>
          }
 
         </div>
         <div className="homany mt-4">
          
          {
-          first3? <div className="flex justify-between gap-2  p-4 " >
-         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
-         <button onClick={()=>setFirst3(!first3)}><AiOutlinePlusCircle className='text-textColor'/></button>
-         </div>:
+          first3? 
        <div className="ready_txt textColor bg-nav/40 p-4">
         <div className="flex justify-between font-semibold gap-6  "><p>How many participants can join a ClearLink video conference?</p>  <button onClick={()=>setFirst3(!first3)}><BsDashCircle className='text-textColor '/></button></div>
         <p className='text-textColor px-3'>ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
       
-       </div>
+       </div>:<div className="flex justify-between gap-2  p-4 " >
+         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
+         <button onClick={()=>setFirst3(!first3)}><AiOutlinePlusCircle className='text-textColor'/></button>
+         </div>
          }
 
         </div>
         <div className="homany  mt-4">
          
          {
-          first4? <div className="flex justify-between gap-2  p-4 " >
-         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
-         <button onClick={()=>setFirst4(!first4)}><AiOutlinePlusCircle className='text-textColor'/></button>
-         </div>:
+          first4? 
        <div className="ready_txt textColor bg-nav/40 p-4">
         <div className="flex justify-between space-x-3 font-semibold gap-4  "><p>How many participants can join a ClearLink video conference?</p>  <button onClick={()=>setFirst4(!first4)}><BsDashCircle className='text-textColor '/></button></div>
         <p className='text-textColor px-3'>ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
       
-       </div>
+       </div>:<div className="flex justify-between gap-2  p-4 " >
+         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
+         <button onClick={()=>setFirst4(!first4)}><AiOutlinePlusCircle className='text-textColor'/></button>
+         </div>
          }
 
         </div>
         <div className="homany mt-4">
          
          {
-          first5? <div className="flex justify-between gap-2  p-4 " >
-         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
-         <button onClick={()=>setFirst5(!first5)}><AiOutlinePlusCircle className='text-textColor'/></button>
-         </div>:
+          first5?
        <div className="ready_txt textColor bg-nav/40 p-4">
         <div className="flex justify-between space-x-3 font-semibold gap-4 "><p>How many participants can join a ClearLink video conference?</p>  <button onClick={()=>setFirst5(!first5)}><BsDashCircle className='text-textColor '/></button></div>
         <p className='text-textColor px-3'>ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
       
-       </div>
+       </div>:<div className="flex justify-between gap-2  p-4 " >
+         <span className='bbbb font-semibold '>How many participants can join a ClearLink video conference?</span>
+         <button onClick={()=>setFirst5(!first5)}><AiOutlinePlusCircle className='text-textColor'/></button>
+         </div>
          }
 
         </div>
