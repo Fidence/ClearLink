@@ -27,7 +27,7 @@ const Showcase = () => {
 
             <div className="flex items-center space-x-4 ">
 
-              <a href="*" className='flex  btnn text-sm py-2 px-5 bg-primary rounded-full baseline'>Sign up for free</a>
+              <a href="*" className='flex btnn text-sm py-2 px-4 bg-primary rounded-full baseline'>Sign up for free</a>
                   <FaRobot className='text-primary'/> <span className='text-primary font-semibold'>Discover AI assistant</span>
             </div>
             <div className="rating  flex items-center space-x-3">
@@ -41,7 +41,7 @@ const Showcase = () => {
         </div>
         <div data-aos="flip-left" className="wrapper_img "  >
           
-               <img src="/assets/Frame 25.png"  alt=""  />
+               <img src="/assets/Frame 25.png"  alt="" width={500}  />
 
         </div>
         </div>

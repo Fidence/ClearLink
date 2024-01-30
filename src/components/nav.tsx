@@ -32,7 +32,7 @@ const Navbar = () => {
 </nav>
 {
   first &&
- <div className="" onClick={()=>setFirst(!first)}>
+ <div className="9y-3" onClick={()=>setFirst(!first)}>
    <div className="absolute z-1000 top-30 left-0 right-50 flex flex-col gap-9 bg-nav/90 min-h-96 w-3/5 p-6">
       <li className='text-black font-semibold flex items-center'>Product <MdKeyboardArrowDown/></li> 
       <li className='text-black font-semibold flex items-center'>Solution <MdKeyboardArrowDown/></li>

@@ -1,6 +1,6 @@
 .showcase{
-    height: 80vh;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    height: 100vh;
 }
 .wrapper{
     margin-top: 2rem;
@@ -15,26 +15,26 @@
     
 }
 .wrapper_txt{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     line-height: 1.2;
    
 }
-.wrapper_img{
+/* .wrapper_img{
     display: none;
    
-}
+} */
 
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:1024px){
    .showcase{
-    height: 80vh;
+    height: 90vh;
    }
    .wrapper{
     display: flex;
      flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3rem;
   }
   .wrapper_txt{
@@ -42,11 +42,15 @@
     font-weight: 600;
     line-height: 1.2;
    }
-   .wrapper_img{
-    display: block;
-    width: 53%;
+  
+    
+} 
+@media screen and (min-width:900px){
+   .wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
    
-   
-  }
     
 } 
