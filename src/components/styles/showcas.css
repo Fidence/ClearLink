@@ -11,7 +11,8 @@
 .wrapper_flex{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
+   
     
 }
 .wrapper_txt{
@@ -37,14 +38,17 @@
    
   }
   .wrapper_txt{
-    font-size: 2.6rem;
-    margin-top: 1.5rem;
+   
+    margin-top: 2rem;
     font-weight: 600;
     line-height: 1.2;
+   
     
    }
    .wrapper_flex{
+  
     flex: 1;
+    width: 100%;
    }
    .wrapper_img{
     
@@ -57,7 +61,7 @@ flex: 1;
    
 }
   .wrapper_txt{
-    font-size: 2.3rem;;
+    font-size: 2.7rem;
     
    }
       .wrapper_img{
